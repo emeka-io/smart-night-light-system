@@ -2,10 +2,6 @@
 
 An automated LED lighting system designed to optimize energy consumption by responding to environmental light conditions. This project is being built in three iterative phases.
 
-## See it in Action
-Check out the project demonstration and my build-in-public journey on X:
-[Watch the Phase 1 Demo here](https://x.com/EmekaBuilds_/status/2043312047945891887?s=20)
-
 ---
 
 ## Project Phases
@@ -14,6 +10,11 @@ Check out the project demonstration and my build-in-public journey on X:
 - [ ] **Phase 3: System Hardening** - Implementation of hysteresis logic for professional stability.
 
 ## Phase 1: The Core Logic
+
+### See it in Action
+Check out the project demonstration on X:
+[Watch the Phase 1 Demo here](https://x.com/EmekaBuilds_/status/2043312047945891887?s=20)
+
 ### The Problem
 Manual lighting systems are often left on unnecessarily, leading to energy waste. In dark environments, finding a manual switch can also be inconvenient.
 ### The Solution
