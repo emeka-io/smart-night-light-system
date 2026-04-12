@@ -16,6 +16,10 @@ Check out the project demonstration and my build-in-public journey on X:
 ## Phase 1: The Core Logic
 The current version uses a **Photoresistor (LDR)** and an **Arduino Uno** to create a "Sense-Think-Act" loop. The system automatically triggers the LED when ambient light drops below a specific threshold.
 
+## Circuit Diagram
+To ensure a clean signal flow, I mapped the voltage divider and LED output. This diagram serves as the blueprint for the Phase 1 build.
+![Phase 2 Layout](./assets/phase1-circuit-diagram.png)
+
 ### Components Used
 * Arduino Uno
 * Photoresistor (LDR 5528)
