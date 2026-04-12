@@ -45,4 +45,4 @@ The system uses a **Voltage Divider** circuit to convert the variable resistance
 
 ## Repository Structure
 * `/src`: Contains the `.ino` source code for each phase.
-* `/assets`: Wiring diagrams and project photos.
+* `/assets`: Contains the wiring diagrams and project photos for each phase.
