@@ -14,10 +14,9 @@ Check out the project demonstration and my build-in-public journey on X:
 - [ ] **Phase 3: System Hardening** - Implementation of hysteresis logic for professional stability.
 
 ## Phase 1: The Core Logic
-## The Problem
+### The Problem
 Manual lighting systems are often left on unnecessarily, leading to energy waste. In dark environments, finding a manual switch can also be inconvenient.
-
-## The Solution
+### The Solution
 The initial version uses a **Photoresistor (LDR)** and an **Arduino Uno** to create a "Sense-Think-Act" loop. The system automatically triggers the LED when ambient light drops below a specific threshold.
 
 ## Circuit Diagram
