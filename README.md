@@ -19,12 +19,14 @@ The current version uses a **Photoresistor (LDR)** and an **Arduino Uno** to cre
 ## Circuit Diagram
 
 To ensure a clean signal flow, I mapped the voltage divider and LED output. This diagram serves as the blueprint for the Phase 1 build.
+
 ![Phase 2 Layout](./assets/phase1-circuit-diagram.png)
 
 
 ## Physical Build
 
 A clear picture of my wiring.
+
 ![Phase 2 Layout](./assets/phase1-wiring.jpeg)
 
 ### Components Used
