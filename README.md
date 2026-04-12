@@ -1,2 +1,32 @@
-# smart-night-light-system
-An iterative smart lighting project built with Arduino that evolves from basic autonomous sensing to an advanced interactive system with manual overrides and stability logic.
+# Smart Night-Light System
+
+An automated LED lighting system designed to optimize energy consumption by responding to environmental light conditions. This project is being built in three iterative phases.
+
+## 📺 See it in Action
+Check out the project demonstration and my build-in-public journey on X:
+[Watch the Phase 1 Demo here](PASTE_YOUR_X_LINK_HERE)
+
+---
+
+## 🚀 Project Phases
+- [x] **Phase 1: The Core** - Autonomous light sensing and LED triggering.
+- [ ] **Phase 2: User Control** - Manual override button and acoustic (Buzzer) feedback.
+- [ ] **Phase 3: System Hardening** - Implementation of hysteresis logic for professional stability.
+
+## 🛠️ Phase 1: The Core Logic
+The current version uses a **Photoresistor (LDR)** and an **Arduino Uno** to create a "Sense-Think-Act" loop. The system automatically triggers the LED when ambient light drops below a specific threshold.
+
+### Components Used
+* Arduino Uno
+* Photoresistor (LDR 5528)
+* 10K Ohm Resistor (Pull-down)
+* 220 Ohm Resistor (LED Current Limiting)
+* LED (Yellow/Green)
+* Breadboard and Jumper Wires
+
+### How it Works
+The system uses a **Voltage Divider** circuit to convert the variable resistance of the LDR into a readable analog voltage (0-5V). The Arduino processes this via its Analog-to-Digital Converter (ADC), turning the LED `HIGH` when the environment is dark.
+
+## 📂 Repository Structure
+* `/src`: Contains the `.ino` source code for each phase.
+* `/assets`: Wiring diagrams and project photos.
