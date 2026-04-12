@@ -37,7 +37,7 @@ A clear picture of my wiring.
 * Photoresistor (LDR 5528)
 * 10K Ohm Resistor (Pull-down)
 * 220 Ohm Resistor (LED Current Limiting)
-* LED (Yellow/Green)
+* LED (Yellow, any colour can be used)
 * Breadboard and Jumper Wires
 
 ### How it Works
