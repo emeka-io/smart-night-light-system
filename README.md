@@ -44,6 +44,36 @@ A clear picture of my wiring.
 ### How it Works
 The system uses a **Voltage Divider** circuit to convert the variable resistance of the LDR into a readable analog voltage (0-5V). The Arduino processes this via its Analog-to-Digital Converter (ADC), turning the LED `HIGH` when the environment is dark.
 
+
+## Phase 2: Manual Override & Feedback
+
+### The Problem
+Purely autonomous lights can be annoying. If you’re trying to sleep or watch a movie, you don't want the LED firing off just because the room is dark. A system without a "manual off" switch is just incomplete.
+
+### The Solution
+I added a **tactile button** so the user can kill the power when the light isn't needed. To make the interface feel natural, I included an **active buzzer**. It provides a quick "status chirp" so you aren't guessing whether the override is actually active or not.
+
+## Circuit Diagram
+
+I updated the schematic to include the manual control and the HMI (Human-Machine Interface) feedback loop.
+
+![Phase 2 Layout](./assets/phase2_circuit.png)
+
+## Physical Build
+
+The updated breadboard layout with the button and buzzer integrated.
+
+![Phase 2 Build](./assets/phase2_.jpg)
+
+### Components Added
+* Tactile Push Button
+* Active Buzzer (5V)
+* Extra Jumper Wires
+
+### How it Works
+The code now monitors **Digital Pin 2** for a button press. By using the Arduino’s internal `INPUT_PULLUP` resistor, the wiring stays clean. When pressed, the system toggles a boolean state: 
+* **System Active:** Normal LDR logic applies (Double chirp).
+* **System Disabled:** LED is forced `LOW` regardless of light levels (Long beep).
 ## Repository Structure
 * `/src`: Contains the `.ino` source code for each phase.
 * `/assets`: Contains the wiring diagrams and project photos for each phase.
