@@ -44,6 +44,7 @@ A clear picture of my wiring.
 ### How it Works
 The system uses a **Voltage Divider** circuit to convert the variable resistance of the LDR into a readable analog voltage (0-5V). The Arduino processes this via its Analog-to-Digital Converter (ADC), turning the LED `HIGH` when the environment is dark.
 
+---
 
 ## Phase 2: Manual Override & Feedback
 
