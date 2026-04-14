@@ -57,13 +57,13 @@ I added a **tactile button** so the user can kill the power when the light isn't
 
 I updated the schematic to include the manual control and the HMI (Human-Machine Interface) feedback loop.
 
-![Phase 2 Layout](./assets/phase2_circuit.png)
+![Phase 2 Layout](./assets/phase2-circuit-diagram.png)
 
 ## Physical Build
 
 The updated breadboard layout with the button and buzzer integrated.
 
-![Phase 2 Build](./assets/phase2_.jpg)
+![Phase 2 Build](./assets/phase2-wiring.jpeg)
 
 ### Components Added
 * Tactile Push Button
