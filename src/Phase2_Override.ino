@@ -1,3 +1,9 @@
+/*
+ * Project: Smart Night-Light System (Phase 1)
+ * Author: [Emeka / @EmekaBuilds_ on X]
+ * Date: April 2026
+ */
+
 const int sensorPin = A0;
 const int ledPin = 13;
 const int buttonPin = 2;   
