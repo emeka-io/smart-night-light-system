@@ -6,17 +6,14 @@
 Check out the project demonstration on X:
 * [Watch the Phase 2 Demo: Manual Override & Acoustic Feedback](https://x.com/EmekaBuilds_/status/2044038754789134508?s=20)
 * [Watch the Phase 1 Demo: Autonomous Core](https://x.com/EmekaBuilds_/status/2043312047945891887?s=20)
-* 
+
+
 ## Project Phases
 - [x] **Phase 1: The Core** - Autonomous light sensing and LED triggering.
 - [x] **Phase 2: User Control** - Manual override button and acoustic (Buzzer) feedback.
 - [ ] **Phase 3: System Hardening** - Implementation of hysteresis logic for professional stability.
 
 ## Phase 1: The Core Logic
-
-### See it in Action
-Check out the project demonstration on X:
-[Watch the Phase 1 Demo here](https://x.com/EmekaBuilds_/status/2043312047945891887?s=20)
 
 ### The Problem
 Manual lighting systems are often left on unnecessarily, leading to energy waste. In dark environments, finding a manual switch can also be inconvenient.
