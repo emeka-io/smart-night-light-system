@@ -2,7 +2,7 @@
 ---
 ##### An automated LED lighting system designed to optimize energy consumption by responding to environmental light conditions. This project is being built in three iterative phases.
 ---
-## 📺 See it in Action
+## See it in Action
 Check out the project demonstration on X:
 * [Watch the Phase 2 Demo: Manual Override & Acoustic Feedback](https://x.com/EmekaBuilds_/status/2044038754789134508?s=20)
 * [Watch the Phase 1 Demo: Autonomous Core](https://x.com/EmekaBuilds_/status/2043312047945891887?s=20)
