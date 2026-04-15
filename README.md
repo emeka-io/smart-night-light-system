@@ -49,10 +49,10 @@ The system uses a **Voltage Divider** circuit to convert the variable resistance
 ## Phase 2: Manual Override & Feedback
 
 ### The Problem
-Purely autonomous lights can be annoying. If you’re trying to sleep or watch a movie, you don't want the LED firing off just because the room is dark. A system without a "manual off" switch is just incomplete.
+Purely autonomous lights can be annoying. If you’re trying to sleep or watch a movie, you don't want the LED on everytime the room is dark. A system without a "manual off" switch is incomplete.
 
 ### The Solution
-I added a **tactile button** so the user can kill the power when the light isn't needed. To make the interface feel natural, I included an **active buzzer**. It provides a quick "status chirp" so you aren't guessing whether the override is actually active or not.
+I added a **tactile button** so the user can turn off the LED when the light isn't needed. To make the interface feel natural, I included an **active buzzer**. It provides a quick "status chirp" so you aren't guessing whether the override is active or not.
 
 ## Circuit Diagram
 
