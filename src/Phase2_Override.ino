@@ -28,7 +28,7 @@ void loop() {
     systemActive = !systemActive; 
     
     if (systemActive) {
-      // SUCCESS CHIRP: Double "Happy" beep (ON)
+      // SUCCESS CHIRP: Double beep (ON)
       digitalWrite(buzzerPin, HIGH); delay(60); digitalWrite(buzzerPin, LOW);
       delay(60);
       digitalWrite(buzzerPin, HIGH); delay(60); digitalWrite(buzzerPin, LOW);
