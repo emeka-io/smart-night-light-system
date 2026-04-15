@@ -1,5 +1,5 @@
 /*
- * Project: Smart Night-Light System (Phase 1)
+ * Project: Smart Night-Light System (Phase 2)
  * Author: [Emeka / @EmekaBuilds_ on X]
  * Date: April 2026
  */
