@@ -1,4 +1,4 @@
-# Phase 2: Manual Agency & Audible Feedback
+# Phase 2: Manual Control & Audible Feedback
 
 ## 1. Overview
 Phase 2 is the **"User Empowerment"** stage of the Smart Light System. While Phase 1 proved the system could think, Phase 2 ensures the system obeys. This phase introduces a **Manual Override** and an **Active Buzzer** to move from a purely robotic response to a communicative, user-centric device.
