@@ -20,9 +20,11 @@ I built an automated system that monitors its environment in real-time. By using
 | Component | Specification | Role |
 | :--- | :--- | :--- |
 | **Arduino Uno** | ATmega328P | The "Brain" (Decision Maker) |
-| **LDR** | 5mm GL55 Series | The "Eye" (Light Sensor) |
-| **10kΩ Resistor** | Fixed Resistor | Acts as a translator for the sensor |
+| **LDR (Photo Resistor 5528)** | 5mm GL55 Series | The "Eye" (Light Sensor) |
+| **10kΩ Resistor** | Fixed Resistor | Pull-down for LDR Voltage Divider |
+| **220Ω Resistor** | Fixed Resistor | Current Limiter (Protects the LED) |
 | **LED** | 5mm Standard | The "Output" (The Light) |
+
 
 ### System Architecture
 Below is the wiring diagram and physical prototype for Phase 1:
