@@ -57,6 +57,6 @@ After testing Phase 1, I realized that pure automation is actually a headache. T
 ### The "Cinema" Problem:
 I noticed a major flaw in the logic during real-world use. If I wanted to watch a movie or try to sleep in a dark room, the LED would snap ON and stay there. There was no way to tell the system, "I know it's dark, but keep the light off".
 
-###Key Takeaways:
+Key Takeaways:
 - **Total Automation isn't always better**: A system without a manual off switch is incomplete and intrusive.
 - **Sensor Jitter**: Near the 450 threshold, the light would flicker(blink) rapidly.
