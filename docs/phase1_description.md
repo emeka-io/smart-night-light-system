@@ -38,6 +38,7 @@ if (ldrValue < 450) {
   // It is bright -> STAY OFF
   digitalWrite(ledPin, LOW); 
 }
+```
 
 ## 6. Observations & Limitations
 "After testing Phase 1, I realized that pure automation is actually a headache. The system was "smart" enough to detect light, but too "dumb" to know when I didn't want it on.
