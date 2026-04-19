@@ -11,6 +11,10 @@ Phase 1 marks the "Genesis" of the Smart Light System. The goal was to move away
 ## 3. The Solution: The "Sense-Think-Act" Loop
 I built an automated system that monitors its environment in real-time. By using a **Photoresistor (LDR)** as an "eye," the Arduino constantly measures brightness and decides whether to act.
 
+### How it Works
+The system uses a **Voltage Divider** circuit to convert the variable resistance of the LDR into a readable analog voltage (0-5V). The Arduino processes this via its Analog-to-Digital Converter (ADC), turning the LED **HIGH** when the environment is dark.
+
+
 **The Logic Flow:**
 - **Sense:** The LDR detects the current light level.
 - **Think:** The Arduino compares that level to a pre-set "Darkness" value.
