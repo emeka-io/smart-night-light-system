@@ -1,6 +1,6 @@
 # Smart Night-Light System
----
-##### An automated LED lighting system designed to optimize energy consumption by responding to environmental light conditions. This project is being built in three iterative phases.
+-
+### An automated LED lighting system designed to optimize energy consumption by responding to environmental light conditions. This project is being built in three iterative phases.
 ---
 ## See it in Action
 Check out the project demonstration on X:
