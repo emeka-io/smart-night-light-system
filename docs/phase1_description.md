@@ -24,6 +24,15 @@ I built an automated system that monitors its environment in real-time. By using
 | **10kΩ Resistor** | Fixed Resistor | Acts as a translator for the sensor |
 | **LED** | 5mm Standard | The "Output" (The Light) |
 
+### System Architecture
+Below is the wiring diagram and physical prototype for Phase 1:
+
+![Circuit Diagram](../assets/phase1-circuit-diagram.png)
+*Figure 1: Schematic of the LDR Voltage Divider.*
+
+![Physical Wiring](../assets/phase1-wiring.jpeg)
+*Figure 2: Breadboard implementation of the basic Sense-Think-Act loop.*
+
 ## 5. Implementation & Code Snippet
 The system uses a **Threshold Value of 450 (ADC counts)**. This is the "tipping point" where the system decides it is officially "dark."
 
@@ -41,13 +50,11 @@ if (ldrValue < 450) {
 ```
 
 ## 6. Observations & Limitations
-"After testing Phase 1, I realized that pure automation is actually a headache. The system was "smart" enough to detect light, but too "dumb" to know when I didn't want it on.
+After testing Phase 1, I realized that pure automation is actually a headache. The system was "smart" enough to detect light, but too "dumb" to know when I didn't want it on.
 
 ### The "Cinema" Problem:
-"I noticed a major flaw in the logic during real-world use. If I wanted to watch a movie or try to sleep in a dark room, the LED would snap ON and stay there. There was no way to tell the system, 'I know it's dark, but keep the light off.'"
+I noticed a major flaw in the logic during real-world use. If I wanted to watch a movie or try to sleep in a dark room, the LED would snap ON and stay there. There was no way to tell the system, "I know it's dark, but keep the light off".
 
 ###Key Takeaways:
-- "**Automation isn't always better**: A system without a manual off switch is incomplete and intrusive."
-
-  
-}
+- **Total Automation isn't always better**: A system without a manual off switch is incomplete and intrusive.
+- **Sensor Jitter**: Near the 450 threshold, the light would flicker(blink) rapidly.
